@@ -1,0 +1,27 @@
+.pokedex {
+  margin: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  /* border: 2px solid #8fbcbb; */
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.buttons button {
+  padding: 8px;
+  background-color: #81A1C1;
+  border: none;
+  border-radius: 3px;
+  color: #2E3440;
+  font-weight: 800;
+}
+
+.buttons button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
